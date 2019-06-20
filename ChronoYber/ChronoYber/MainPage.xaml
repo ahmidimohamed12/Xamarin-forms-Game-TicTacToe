@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ChronoYber"
+             BackgroundColor="Black"
+             x:Class="ChronoYber.MainPage">
+
+    <StackLayout 
+       Orientation="Vertical"
+        >
+        <Switch 
+            x:Name="spb"
+            BackgroundColor="Black"
+            />
+        <BoxView
+            HeightRequest="100"
+            />
+        <Label
+            Text="tic tac toe"
+            FontAttributes="Bold"
+            FontSize="32"
+            TextColor="White"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            x:Name="lbl1"
+            />
+        <Label
+            Text="Game Ai Tic Tac Toe"
+            TextColor="White"
+            HorizontalOptions="Center"
+            FontSize="20"
+            x:Name="lbl2"   
+            FontAttributes="Italic"
+            />
+        <BoxView 
+            HeightRequest="50"
+            />
+        <Button
+            HorizontalOptions="CenterAndExpand"
+             BackgroundColor="Red"
+            TextColor="White"
+            x:Name="btnp"
+            FontAttributes="Bold"
+            WidthRequest="200"
+            Text="Player Vs Player"
+            />
+
+        <Button 
+            x:Name="btncp"
+             HorizontalOptions="CenterAndExpand"
+             BackgroundColor="Red"
+            TextColor="White"
+            FontAttributes="Bold"
+            WidthRequest="200"
+            Text="Player Vs Computer"
+            />
+
+        <Button
+             HorizontalOptions="CenterAndExpand"
+             BackgroundColor="Red"
+            TextColor="White"
+            FontAttributes="Bold"
+            Text="Computer Vs Computer"
+            WidthRequest="200"
+            x:Name="btnc"
+            />
+        <Button
+            WidthRequest="200"
+            HorizontalOptions="CenterAndExpand"
+            Text="Settings"
+            FontAttributes="Bold"
+            BackgroundColor="Blue"
+            TextColor="White"
+            x:Name="btnsettings"
+            />
+        <BoxView
+            HeightRequest="20"
+            />
+        <Label
+            x:Name="lbl3"
+            Text="Game Corporation By Ahmidi Mohmed"
+            FontAttributes="None"
+            HorizontalOptions="CenterAndExpand"
+            TextColor="White"
+            />
+    </StackLayout>
+
+</ContentPage>

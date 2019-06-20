@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="ChronoYber.playervscomp">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                </Grid.RowDefinitions>
+                <Button FontAttributes="Bold" FontSize="40" x:Name="btn1" Grid.Row="0" Grid.Column="0" />
+                <Button FontAttributes="Bold" FontSize="40" Grid.Row="0" x:Name="btn2" Grid.Column="1" />
+                <Button  FontAttributes="Bold" FontSize="40" Grid.Row="0" x:Name="btn3" Grid.Column="2" />
+
+                <Button Grid.Row="1" x:Name="btn4" Grid.Column="0"  FontAttributes="Bold" FontSize="40" />
+                <Button Grid.Row="1" x:Name="btn5" Grid.Column="1"  FontAttributes="Bold" FontSize="40" />
+                <Button Grid.Row="1" x:Name="btn6" Grid.Column="2"  FontAttributes="Bold" FontSize="40" />
+
+                <Button x:Name="btn7" Grid.Row="2" Grid.Column="0"  FontAttributes="Bold" FontSize="40" />
+                <Button x:Name="btn8" Grid.Row="2" Grid.Column="1"  FontAttributes="Bold" FontSize="40" />
+                <Button Grid.Row="2" x:Name="btn9" Grid.Column="2"  FontAttributes="Bold" FontSize="40" />
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
